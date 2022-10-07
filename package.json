@@ -6,13 +6,13 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "sw:languages": "hubble dev:sw sw-languages"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.10"
+    "nuxt": "^3.0.0-rc.11"
   },
   "dependencies": {
-    "@hubblecommerce/hubble": "^2.0.0-alpha.23",
-    "pinia": "^2.0.22"
+    "@hubblecommerce/hubble": "^2.0.0-alpha.25"
   }
 }
