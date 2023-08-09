@@ -1,4 +1,4 @@
-# hubble PWA Demo Repository for testing purposes 
+# hubble PWA Demo Repository for testing purposes  
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
