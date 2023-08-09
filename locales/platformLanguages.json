@@ -1,14 +1,15 @@
 [
-  {
-    "route": "de",
-    "id": "01893f1ff0c871548b68b94712630162",
-    "code": "en-GB",
-    "name": "Englisch"
-  },
+
   {
     "route": "en",
     "id": "2fbb5fe2e29a4d70aa5854ce7ce3e20b",
     "code": "de-DE",
     "name": "Deutsch"
+  },
+  {
+    "route": "de",
+    "id": "01893f1ff0c871548b68b94712630162",
+    "code": "en-GB",
+    "name": "Englisch"
   }
 ]
