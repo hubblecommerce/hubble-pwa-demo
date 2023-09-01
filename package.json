@@ -13,8 +13,6 @@
     "nuxt": "^3.6.5"
   },
   "dependencies": {
-    "@hubblecommerce/hubble": "^2.2.0",
-    "pinia": "^2.1.6",
-    "sass": "^1.64.2"
+    "@hubblecommerce/hubble": "^2.2.1"
   }
 }
