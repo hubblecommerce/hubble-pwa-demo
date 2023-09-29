@@ -10,9 +10,9 @@
     "sw:languages": "hubble dev:sw sw-languages"
   },
   "devDependencies": {
-    "nuxt": "3.6.5"
+    "nuxt": "3.7.4"
   },
   "dependencies": {
-    "@hubblecommerce/hubble": "^2.2.1"
+    "@hubblecommerce/hubble": "^2.3.0"
   }
 }
