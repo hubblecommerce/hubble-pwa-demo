@@ -11,9 +11,9 @@
     "nuxt:upgrade": "nuxi upgrade --force"
   },
   "devDependencies": {
-    "nuxt": "^3.9.0"
+    "nuxt": "^3.11.1"
   },
   "dependencies": {
-    "@hubblecommerce/hubble": "^2.4.1"
+    "@hubblecommerce/hubble": "^2.5.0"
   }
 }
