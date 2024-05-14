@@ -9,5 +9,14 @@ export default defineNuxtConfig({
     },
     alias: {
         pinia: '/node_modules/@pinia/nuxt/node_modules/pinia/dist/pinia.mjs'
+    },
+    i18n: {
+        locales: [
+            'de',
+            'en'
+        ],
+        defaultLocale: 'de',
+        strategy: 'prefix_and_default',
+        detectBrowserLanguage: false
     }
 })
