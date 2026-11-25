@@ -7,5 +7,6 @@ node_modules
 .env
 dist
 
-.hubble
+layers/hubble/
+.hubble-layer-sync-cache.json
 .idea
