@@ -1,4 +1,4 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     future: {
         compatibilityVersion: 4,
@@ -19,12 +19,5 @@ export default defineNuxtConfig({
         strategy: 'prefix_and_default',
         detectBrowserLanguage: false
     },
-    imports: {
-        dirs: [
-            'utils/mapping'
-        ]
-    },
-    css: [
-        'assets/css/tailwind.css'
-    ],
+    compatibilityDate: '2025-12-01'
 })

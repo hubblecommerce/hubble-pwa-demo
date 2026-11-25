@@ -1,5 +1,6 @@
 {
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "start": "node .output/server/index.mjs",
@@ -10,10 +11,14 @@
     "sw:languages": "hubble dev:sw sw-languages",
     "nuxt:upgrade": "nuxi upgrade --force"
   },
+  "engines": {
+    "node": ">=22.16.0",
+    "npm": ">=10.9.0"
+  },
   "devDependencies": {
-    "nuxt": "~3.19.2"
+    "nuxt": "^4.7.0"
   },
   "dependencies": {
-    "@hubblecommerce/hubble": "^3.0.0-alpha.8"
+    "@hubblecommerce/hubble": "^3.2.3"
   }
 }
