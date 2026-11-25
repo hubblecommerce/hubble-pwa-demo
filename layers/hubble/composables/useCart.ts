@@ -119,9 +119,10 @@ export const useCart = defineStore('use-cart', (): HblIUseCart => {
         return CartShopware.addLineItem(
             {
                 items: [
+                    // @ts-ignore
                     {
-                        id: itemId,
                         type: 'product',
+                        referencedId: itemId,
                         quantity: qty
                     }
                 ]
