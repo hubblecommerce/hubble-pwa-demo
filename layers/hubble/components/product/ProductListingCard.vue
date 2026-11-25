@@ -28,12 +28,12 @@
                 </MiscLink>
                 <button
                     :disabled="isAddingToCart"
-                    class="btn btn-secondary text-center"
+                    class="btn btn-secondary text-center relative"
                     role="button"
                     @click="onAddToCart()"
                 >
-                    <span v-if="isAddingToCart" class="loading" />
-                    {{ t('productCard.addToCart') }}
+                    <span :class="{ invisible: isAddingToCart }">{{ t('productCard.addToCart') }}</span>
+                    <span v-if="isAddingToCart" class="loading absolute inset-0 m-auto" />
                 </button>
             </div>
         </div>
